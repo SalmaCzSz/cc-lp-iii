@@ -1,6 +1,6 @@
   .flip {
-    width: 300px;
-    height: 280px;
+    width: 250px;
+    height: 180px;
     text-align: center;
     perspective: 600px;  
   }
@@ -35,4 +35,7 @@
   .flip-back {
     transform: rotateY(180deg);
     padding: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }

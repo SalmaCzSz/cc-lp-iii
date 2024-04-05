@@ -663,6 +663,18 @@ video {
   background-color: rgba(142, 82, 161, var(--bg-opacity));
 }
 
+.bg-gray{
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(---opacity));
+}
+
+.hover\:bg-dark-blue:hover{
+  --bg-opacity: 1;
+  background-color: #000434;
+  background-color: rgba(0, 4, 52, var(--bg-opacity));
+}
+
 .hover\:bg-brigth-red:hover{
   --bg-opacity: 1;
   background-color: #EF3F4A;
@@ -679,6 +691,12 @@ video {
   --bg-opacity: 1;
   background-color: #00C6D7;
   background-color: rgba(0, 198, 215, var(--bg-opacity));
+}
+
+.border-brigth-blue{
+  --border-opacity: 1;
+  border-color: #0099D8;
+  border-color: rgba(0, 153, 216, var(--border-opacity));
 }
 
 .border-gray-700{
@@ -996,8 +1014,16 @@ video {
   padding-left: 0.75rem;
 }
 
+.pb-5{
+  padding-bottom: 5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pt-5{
+  padding-top: 5rem;
 }
 
 .pt-48{
@@ -1257,8 +1283,8 @@ p {
 .section-heading {
   font-size: 2.25rem;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  /*color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));*/
   font-weight: 700;
   letter-spacing: 0.025em;
 }
@@ -1341,8 +1367,8 @@ p {
 
 .team-name {
   --text-opacity: 1;
-  color: #2d3748;
-  color: rgba(45, 55, 72, var(--text-opacity));
+  color: #000434;
+  color: rgba(0, 4, 52, var(--text-opacity));
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.125rem;
@@ -1443,15 +1469,15 @@ p {
 .footer-links {
   line-height: 2.25rem;
   --text-opacity: 1;
-  color: #f7fafc;
-  color: rgba(247, 250, 252, var(--text-opacity));
+  color: #000434;
+  color: rgba(0, 4, 52, var(--text-opacity));
   transition-duration: 300ms;
 }
 
 .footer-links:hover {
   --text-opacity: 1;
   color: #0099D8;
-  color: rgba(0, 153, 216, var(--bg-opacity));
+  color: rgba(0, 153, 216, var(--text-opacity));
 }
 
 .footer-icon {
@@ -1461,20 +1487,20 @@ p {
   width: 2rem;
   height: 2rem;
   --bg-opacity: 1;
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  background-color: #0099D8;
+  background-color: rgba(0, 153, 216, var(--bg-opacity));
   border-radius: 9999px;
   font-size: 0.875rem;
   --text-opacity: 1;
-  color: #000434;
-  color: rgba(0, 4, 52, var(--bg-opacity));
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
   transition-duration: 300ms;
 }
 
 .footer-icon:hover {
   --text-opacity: 1;
   color: #fff;
-  color: rgba(255, 255, 255, var(--bg-opacity));
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 @media (min-width: 640px){
